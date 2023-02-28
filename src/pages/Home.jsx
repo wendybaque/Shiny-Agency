@@ -37,7 +37,7 @@ const Illustration = styled.img`
   flex: 1;
 `;
 
-function Home() {
+ const Home =()=> {
   return (
     <HomeWrapper>
       <HomerContainer>

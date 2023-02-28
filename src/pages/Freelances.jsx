@@ -33,7 +33,7 @@ const LoaderWrapper = styled.div`
   justify-content: center;
 `;
 
-function Freelances() {
+const Freelances = () => {
   const [isDataLoading, setDataLoading] = useState(false);
   const [error, setError] = useState(false);
   const [freelancersList, setFreelancesList] = useState([]);

@@ -14,7 +14,7 @@ const NavContainer = styled.nav`
   align-items: center;
 `;
 
-function Header() {
+const Header = () => {
   return (
     <NavContainer>
       <Link to="/">
@@ -29,6 +29,6 @@ function Header() {
       </div>
     </NavContainer>
   );
-}
+};
 
 export default Header;
