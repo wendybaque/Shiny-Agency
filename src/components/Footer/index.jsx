@@ -13,7 +13,9 @@ const FooterContainer = styled.footer`
 
 const NightModeButton = styled.button`
   background-color: transparent;
-  border: none;
+  padding: 5px;
+  border: 1px solid ${colors.primary};
+  border-radius: 30px;
   cursor: pointer;
   color: ${colors.secondary};
 `;

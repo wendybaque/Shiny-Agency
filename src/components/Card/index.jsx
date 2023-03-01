@@ -31,6 +31,7 @@ const CardImage = styled.img`
 
 const CardWrapper = styled.div`
   display: flex;
+  box-shadow: 10px 10px 30px gray;
   flex-direction: column;
   justify-content: space-around;
   padding: 15px;

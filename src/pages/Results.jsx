@@ -7,6 +7,8 @@ import { StyledLink, Loader } from "../utils/style/Atoms";
 
 const ResultsContainer = styled.div`
   display: flex;
+  box-shadow: 10px 10px 30px gray;
+  border-radius: 30px;
   flex-direction: column;
   align-items: center;
   margin: 60px 90px;
@@ -38,6 +40,7 @@ const JobTitle = styled.span`
 
 const JobDescription = styled.div`
   font-size: 18px;
+
   & > p {
     color: ${({ theme }) => (theme === "light" ? colors.secondary : "#ffffff")};
     margin-block-start: 5px;
